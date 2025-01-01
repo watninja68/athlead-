@@ -1,0 +1,28 @@
+
+
+---------------------------------------------------------------------
+Detecting pose for video test1.jpg
+---------------------------------------------------------------------
+Detecting 2D joint positions with BlazePose for C:\Users\Home\Desktop\IOT\athlead runing\test1.jpg.
+Only one person can be detected by BlazePose. No interpolation nor filtering options available. Not plotting available.
+Sorting people across frames.
+1 persons found.
+Person 0: Interpolating missing sequences if they are smaller than 5 frames.
+Person 0: Filtering with Butterworth filter, 4th order, 6 Hz..
+Person 0: Saving csv position file in C:\Users\Home\Desktop\IOT\athlead runing\test1_BLAZEPOSE_person0_points.csv.
+Saving images and video in C:\Users\Home\Desktop\IOT\athlead runing.
+Pose detection took 6.17 s.
+
+
+---------------------------------------------------------------------
+Computing angles for video test1.jpg 
+for ['Right ankle', 'Left ankle', 'Right knee', 'Left knee', 'Right hip', 'Left hip', 'Right shoulder', 'Left shoulder', 'Right elbow', 'Left elbow']
+and ['Right foot', 'Left foot', 'Right shank', 'Left shank', 'Right thigh', 'Left thigh', 'Trunk', 'Right arm', 'Left arm', 'Right forearm', 'Left forearm'].
+---------------------------------------------------------------------
+Retrieving csv position files in C:\Users\Home\Desktop\IOT\athlead runing...
+1 persons found.
+Person 0: Computing 2D joint and segment angles.
+Person 0: Saving csv angle file in C:\Users\Home\Desktop\IOT\athlead runing\test1_BLAZEPOSE_person0_angles.csv.
+Saving video in C:\Users\Home\Desktop\IOT\athlead runing\test1_BLAZEPOSE.mp4.
+Saving images in C:\Users\Home\Desktop\IOT\athlead runing\test1_BLAZEPOSE_img.
+Joint and segment computation took 0.08 s.
